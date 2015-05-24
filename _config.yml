@@ -14,7 +14,7 @@ paginate_path: "page/:num"
 categories_path : categories.html
 tags_path : tags.html
 
-BASE_PATH : http://endeavorchan.github.io/Notes
+BASE_PATH : /Notes
 
 
 title : Hello Chen 
