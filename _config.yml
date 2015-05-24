@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:title
+permalink: /index.html
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
 
@@ -14,7 +14,7 @@ paginate_path: "page/:num"
 categories_path : categories.html
 tags_path : tags.html
 
-BASE_PATH : /Notes
+BASE_PATH : http://endeavorchan.github.io/Notes
 
 
 title : Hello Chen 
