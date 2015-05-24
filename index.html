@@ -1,15 +1,13 @@
 ---
-layout: default
-title: "uno-dbyll : Jekyll Theme"
+layout: page
+tagline:
 ---
 
-<br/>
 {% for post in paginator.posts %}
 
 <article class="home">
 
-  <h2>
- <p class="post-date">
+  <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
     {{ post.date | date: "%B" }}
     {% case d %}
@@ -19,11 +17,13 @@ title: "uno-dbyll : Jekyll Theme"
     {% else %}{{ d }}th,
     {% endcase %}
     {{ post.date | date: "%Y" }}
-  </p>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}" style="font-family: ubuntu">{{ post.title }}</a>
+  </span>
+
+  <h2>
+    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <div style="font-family: 'Raleway', sans-serif;font-size:large">
+  <div>
     {% if post.fullview %}
     {{ post.content }}
     {% else %}
@@ -35,8 +35,8 @@ title: "uno-dbyll : Jekyll Theme"
     {{ post.excerpt }}
     {% endif %}
     {% endif %}
-    <hr class="hr-line1 " style="background-color:#D8D8D8;width:25%;" align="left">
   </div>
+
 </article>
 {% endfor %}
 <hr/>
@@ -46,7 +46,7 @@ title: "uno-dbyll : Jekyll Theme"
   {% if paginator.previous_page %}
   <li class="previous">
     {% if paginator.previous_page == 1 %}
-    <a href="{{ site.BASE_PATH }}/#blog">&larr; Newer</a>
+    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
     {% else %}
     <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
     {% endif %}

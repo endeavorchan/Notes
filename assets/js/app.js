@@ -1,10 +1,16 @@
-$(document).ready(function(){
-  alert("hello world");
-if(window.location.href=="http://blog.ankanbiswas.in/uno-dbyll/")
-{
-$("#sidebar").css({width:'100%'});
-$("#btnblog").click(function(){
-$("#sidebar").animate({width:'33.3333%'},'slow');
-});
-}
+$( document ).ready(function() {
+
+	/* Sidebar height set */
+	$('.sidebar').css('min-height',$(document).height());
+
+	/* Secondary contact links */
+	var scontacts = $('#contact-list-secondary');
+	var contact_list = $('#contact-list');
+	
+	scontacts.hide();
+	
+	contact_list.mouseenter(function(){ scontacts.fadeIn(); });
+	
+	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
+
 });

@@ -1,33 +1,32 @@
-# This is the default format.
-# For more see: http://jekyllrb.com/docs/permalinks/
-# permalink: /:title
-# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
 
-highlighter: pygments
-paginate: 20 # pagination based on number of posts
-paginate_path: "page/:num"
 
-# These paths are to the main pages Jekyll-Bootstrap ships with.
-# Some JB helpers refer to these paths; change them here if needed.
-#
-categories_path : categories.html
-tags_path : tags.html
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
 
-BASE_PATH : /Notes
-
-
-title : Hello Chen 
-
-
-
+description: Stylish Jekyll Theme
 author:
-  name: Ankan Biswas
-  role: Jekyll Theme
-  email: support@ankanbiswas.in
-  github: talk2ankan
-  twitter: talk2ankan
-  facebook: talk2ankan
-  googleplus: +AnkanBiswasWorkspace
-  bio: "Simple, clean, responsive and stylist theme for jekyll. "
-  uno-dbyll: https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  #twitter: dbtek
+  #pinterest: asd123
+  #linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  #email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH: /Notes
