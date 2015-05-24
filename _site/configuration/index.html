@@ -2,10 +2,8 @@
 <html>
 	<head>
 
-		<title>Lamp Installation on Arch</title>
+		<title>Configuration</title>
 
-	
-	<meta name="description" content="Linux, Apache, MySQL/MariaDB, PHP. In short LAMP, a complete Open Source solution for web-developer.">
 	
 
 	<meta name="author" content="Ankan Biswas">
@@ -67,9 +65,9 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
      
 
      
-      <a class="navbar-brand" href="http://blog.ankanbiswas.in/uno-dbyll">
+      <a class="navbar-brand" href="">
         <img src="https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png" class="img-circle" style="height:35px;width:35px"/>
-        uno-dbyll
+        Hello Chen
       </a>
     </div>
     
@@ -77,9 +75,9 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbarHeaderCollapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://blog.ankanbiswas.in/uno-dbyll">Home</a></li>
-        <li><a href="http://blog.ankanbiswas.in/uno-dbyll/categories.html">Categories</a></li>
-        <li><a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html">Tags</a></li>
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="/categories.html">Categories</a></li>
+        <li><a href="/tags.html">Tags</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 
@@ -91,9 +89,9 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
      <i class="fa fa-bars"></i>
    </button>
    <ul class="dropdown-menu pull-right" role="menu">
-     <li><a href="http://blog.ankanbiswas.in/uno-dbyll"><i class="fa fa-home"></i> Home</a></li>
-     <li><a href="http://blog.ankanbiswas.in/uno-dbyll/categories.html"><i class="fa fa-folder"></i> Categories</a></li>
-     <li><a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+     <li><a href=""><i class="fa fa-home"></i> Home</a></li>
+     <li><a href="/categories.html"><i class="fa fa-folder"></i> Categories</a></li>
+     <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
      <li class="divider"></li>
      <li><a href="#"><i class="fa fa-arrow-up"></i> Top of Page</a></li>
    </ul>
@@ -102,12 +100,12 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
 <div class="col-sm-4 sidebar hidden-xs" id="sidebar">
 		<! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="http://blog.ankanbiswas.in/uno-dbyll">
+	<a href="">
 		<img src="https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png" class="img-circle" style="border-radius: 50%;
 border: 3px solid #FFF; height:150px;width:150px" />
 	</a>
 	<h3 class="title">
-        <a href="http://blog.ankanbiswas.in/uno-dbyll">uno-dbyll</a>
+        <a href="">Hello Chen</a>
          <p style="font-size:20px;">Jekyll Theme</p>
     </h3>
     
@@ -136,7 +134,7 @@ border: 3px solid #FFF; height:150px;width:150px" />
       </a>
       
        <hr class="hr-line1">
-       <a type="button"  style="font-size:20px; padding:7px; padding-left:13px;padding-right:13px;margin-right: 10px;" class="social3 " id="btnblog" href="http://blog.ankanbiswas.in/uno-dbyll/#blog">
+       <a type="button"  style="font-size:20px; padding:7px; padding-left:13px;padding-right:13px;margin-right: 10px;" class="social3 " id="btnblog" href="/#blog">
         <i class="fa" style="font-weight:bold;letter-spacing:0; font-family:arial,sans-serif">Blog</i>
       </a>
       </h3>
@@ -152,7 +150,7 @@ border: 3px solid #FFF; height:150px;width:150px" />
 <div class="col-sm-8 col-sm-offset-4" id="container">
   
 <div class="page-header">
-  <h1>Lamp Installation on Arch </h1>
+  <h1>Configuration </h1>
 </div>
   
 <article>
@@ -161,61 +159,25 @@ border: 3px solid #FFF; height:150px;width:150px" />
    <span class="post-date">
      
      November 
-     3rd,
-       
+     15th,
+     
      2013
       
    </span>
     <div class="article_body" id="article_body">
-    <p><img src="/assets/media/Lamp.jpg" width="85%" />
-<br />
-<br />
-Linux, <a href="http://httpd.apache.org/">Apache</a>, MySQL/MariaDB, PHP: In short LAMP, a complete Open Source solution for web-developer. Apache Web Server,Often referred to as simply <a href="http://httpd.apache.org/">Apache</a>, a public-domain open source Web server developed by a loosely-knit group of programmers which runs roughly 50% of the servers in the world.
-Here i show you the simple steps to install LAMP on your Arch System:</p>
+    <p>In your config file change these settings</p>
 
-<p>Install php,php-apache,apache and mariadb:
-(note: use your favorite text editor, am using “gedit”)</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="no">Pacman</span> <span class="o">-</span><span class="n">S</span> <span class="n">php</span><span class="o">-</span><span class="n">apache</span> <span class="n">apache</span> <span class="n">mariadb</span></code></pre></div>
-
-<p>Now configure apache:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gedit</span> <span class="sr">/etc/</span><span class="n">httpd</span><span class="o">/</span><span class="n">conf</span><span class="o">/</span><span class="n">httpd</span><span class="o">.</span><span class="n">conf</span> 
-
-<span class="c1">#&gt; comment the line .i.e. put a # before it.</span>
-
-<span class="no">LoadModule</span> <span class="n">unique_id_module</span> <span class="n">modules</span><span class="o">/</span><span class="n">mod_unique_id</span><span class="o">.</span><span class="n">so</span>
-
-<span class="c1">#&gt; restart apache</span>
-
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">restart</span> <span class="n">httpd</span></code></pre></div>
-
-<p>then configure mariadb:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">start</span> <span class="n">mysqld</span>
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">mysql_secure_installation</span>
-
-<span class="c1">#&gt; press enter and then &quot;yes&quot; to all.</span></code></pre></div>
-
-<p>Lastly configure php and php-apache:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gedit</span> <span class="sr">/etc/</span><span class="n">httpd</span><span class="o">/</span><span class="n">conf</span><span class="o">/</span><span class="n">httpd</span><span class="o">.</span><span class="n">conf</span>
-
-<span class="c1">#&gt; add the following lines at the end of the files</span>
-
-<span class="no">LoadModule</span> <span class="n">php5_module</span> <span class="n">modules</span><span class="o">/</span><span class="n">libphp5</span><span class="o">.</span><span class="n">so</span> 
-<span class="no">AddHandler</span> <span class="n">php5</span><span class="o">-</span><span class="n">script</span> <span class="n">php</span> 
-<span class="no">Include</span> <span class="n">conf</span><span class="o">/</span><span class="n">extra</span><span class="o">/</span><span class="n">php5_module</span><span class="o">.</span><span class="n">conf</span>
-
-<span class="c1">#&gt; save and exit .</span>
-
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">gedit</span> <span class="sr">/srv/</span><span class="n">http</span><span class="o">/</span><span class="n">info</span><span class="o">.</span><span class="n">php</span>
-
-<span class="c1">#&gt; add this in your php file:</span>
-
-<span class="o">&lt;</span><span class="p">?</span><span class="n">php</span> <span class="n">phpinfo</span><span class="p">();</span> <span class="sc">?&gt;</span></code></pre></div>
-
-<p>finally, restart apache and all is done.enjoy!</p>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">dbyll</span>
+<span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span>  
+  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">yourname</span>  
+  <span class="l-Scalar-Plain">email</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">youremail</span>  
+  <span class="l-Scalar-Plain">github</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
+  <span class="l-Scalar-Plain">twitter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
+  <span class="l-Scalar-Plain">pinterest</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
+  <span class="l-Scalar-Plain">linkedin</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
+  <span class="l-Scalar-Plain">resume</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
+  <span class="l-Scalar-Plain">bio</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Your stylish,  minimalist theme!</span>  
+  <span class="l-Scalar-Plain">email_md5</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">md5ofemail</span></code></pre></div>
 
     </div>
 
@@ -225,8 +187,18 @@ Here i show you the simple steps to install LAMP on your Arch System:</p>
       
       
        
-        <li><a href="http://blog.ankanbiswas.in/uno-dbyll/categories.html#linux-ref">
-          linux <span>(2)</span>
+        <li><a href="/categories.html#general-ref">
+          general <span>(3)</span>
+          ,
+        </a></li>
+       
+        <li><a href="/categories.html#setup-ref">
+          setup <span>(2)</span>
+          ,
+        </a></li>
+       
+        <li><a href="/categories.html#demo-ref">
+          demo <span>(3)</span>
           
         </a></li>
       
@@ -241,50 +213,29 @@ Here i show you the simple steps to install LAMP on your Arch System:</p>
       
        
         <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#Arch-ref">
-          Arch <span>(1)</span>
+          <a href="/tags.html#demo-ref">
+          demo <span>(3)</span>
           ,
           </a>
         </li>
        
         <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#lamp-ref">
-          lamp <span>(2)</span>
+          <a href="/tags.html#dbyll-ref">
+          dbyll <span>(3)</span>
           ,
           </a>
         </li>
        
         <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#setup-ref">
+          <a href="/tags.html#dbtek-ref">
+          dbtek <span>(3)</span>
+          ,
+          </a>
+        </li>
+       
+        <li>
+          <a href="/tags.html#setup-ref">
           setup <span>(2)</span>
-          ,
-          </a>
-        </li>
-       
-        <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#php-ref">
-          php <span>(1)</span>
-          ,
-          </a>
-        </li>
-       
-        <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#mariadb-ref">
-          mariadb <span>(1)</span>
-          ,
-          </a>
-        </li>
-       
-        <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#appache-ref">
-          appache <span>(1)</span>
-          ,
-          </a>
-        </li>
-       
-        <li>
-          <a href="http://blog.ankanbiswas.in/uno-dbyll/tags.html#mysql-ref">
-          mysql <span>(1)</span>
           
           </a>
         </li>
@@ -299,7 +250,7 @@ Here i show you the simple steps to install LAMP on your Arch System:</p>
     <div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Lamp Installation on Arch&via=talk2ankan"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Configuration&via=talk2ankan"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -318,7 +269,7 @@ Here i show you the simple steps to install LAMP on your Arch System:</p>
 
       <section class="col-sm-6 author">
         <img src="https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png" style="height:100px;width:100px;" class="img-rounded author-image" />
-        <h4 class="section-title author-name"><b>uno-dbyll</b><br/><p style="color:#888;font-size:13px;">Jekyll Theme</p></h4>
+        <h4 class="section-title author-name"><b>Hello Chen</b><br/><p style="color:#888;font-size:13px;">Jekyll Theme</p></h4>
         <p class="author-bio">Simple, clean, responsive and stylist theme for jekyll. </p>
       </section>
     </div>
@@ -327,10 +278,10 @@ Here i show you the simple steps to install LAMP on your Arch System:</p>
 
     <ul class="pager">
       
-      <li class="previous"><a href="http://blog.ankanbiswas.in/uno-dbyll/easiest-way-to-install-lamp-on-ubuntu" title="Easiest Way To Install Lamp On Ubuntu">&larr; Previous</a></li>
+      <li class="previous"><a href="/sample" title="Sample">&larr; Previous</a></li>
       
       
-      <li class="next disabled"><a>Next &rarr;</a>
+      <li class="next"><a href="/hello-world" title="Hello World!">Next &rarr;</a></li>
       
     </ul>
 
