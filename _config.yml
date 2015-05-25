@@ -12,17 +12,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Chen
+      title: Hard Problems
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
+  name: Chen
+  email: cchenhello@gmail.com
+  github: endeavorchan
   #twitter: dbtek
-  pinterest: asd123
+ # pinterest: asd123
   #linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: If you think the problem is hard, please write down your thoughts.
   #email_md5: 726351295ec82e145928582f595aa3aa
 
 #rss_path: feed.xml
