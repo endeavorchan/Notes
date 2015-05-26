@@ -7,12 +7,12 @@
 		<atom:link href="/" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Hello World</title>
-				<description>&lt;p&gt;This is a sample post&lt;/p&gt;
+				<title>Python Decorator</title>
+				<description>
 </description>
 				<pubDate>Tue, 26 May 2015 00:00:00 +0800</pubDate>
-				<link>/general/demo/sample/2015/05/26/hello%20world.html</link>
-				<guid isPermaLink="true">/general/demo/sample/2015/05/26/hello%20world.html</guid>
+				<link>/programming/language/2015/05/26/Python%20Decorator.html</link>
+				<guid isPermaLink="true">/programming/language/2015/05/26/Python%20Decorator.html</guid>
 			</item>
 		
 	</channel>
