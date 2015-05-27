@@ -3,16 +3,260 @@
 	<channel>
 		<title></title>
 		<description>Stylish Jekyll Theme</description>
-		<link>/</link>
-		<atom:link href="/" rel="self" type="application/rss+xml" />
+		<link>/Notes/</link>
+		<atom:link href="/Notes/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Maunual</title>
+				<description>&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;main-section&quot;&gt;Main section&lt;/h2&gt;
+
+&lt;h3 id=&quot;sub-section-1&quot;&gt;sub section 1&lt;/h3&gt;
+
+&lt;p&gt;I can put my paragraph here, including some special characters like  &lt;em&gt;two starts italic&lt;/em&gt; &lt;strong&gt;four stars bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For itemize:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;item 1&lt;/li&gt;
+  &lt;li&gt;item 2&lt;/li&gt;
+  &lt;li&gt;item &lt;code&gt;Ctrl+3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sub-section-2&quot;&gt;sub section 2&lt;/h3&gt;
+&lt;p&gt;I can put a hyperlink here &lt;a href=&quot;http://baidu.com&quot;&gt;Baidu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;nest a list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Abacus
+    &lt;ul&gt;
+      &lt;li&gt;answer&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bubbles
+    &lt;ol&gt;
+      &lt;li&gt;bunk&lt;/li&gt;
+      &lt;li&gt;bupkis
+        &lt;ul&gt;
+          &lt;li&gt;BELITTLER&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;burper&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cunning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Blockquotes
+&amp;gt; Email-style angle brackets
+&amp;gt; are used for blockquotes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;And, they can be nested.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;headers-in-blockquotes&quot;&gt;Headers in blockquotes&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;You can quote a list.&lt;/li&gt;
+    &lt;li&gt;Etc.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;sub-section-3&quot;&gt;sub section 3&lt;/h3&gt;
+&lt;p&gt;This is a normal paragraph.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; #include &amp;lt;iostream&amp;gt;
+ using namespace std;
+ int main() {
+	 cout &amp;lt;&amp;lt; &quot;hello world&quot; &amp;lt;&amp;lt; endl;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;/h3&gt;
+
+&lt;p&gt;Three or more…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hyphens&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Asterisks&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Underscores&lt;/p&gt;
+
+&lt;h3 id=&quot;end-a-line-with-two-or-more-spaces&quot;&gt;end a line with two or more spaces&lt;/h3&gt;
+&lt;p&gt;Roses are red,&lt;br /&gt;
+Violets are blue.&lt;/p&gt;
+
+&lt;h3 id=&quot;picture&quot;&gt;picture&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/Users/chen/Pictures/153_130507095205_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;table&quot;&gt;table&lt;/h3&gt;
+&lt;p&gt;Colons can be used to align columns.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;The outer pipes (&lt;/td&gt;
+      &lt;td&gt;) are optional, and you don’t need to make the raw Markdown line up prettily. You can also use inline Markdown.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Markdown&lt;/th&gt;
+      &lt;th&gt;Less&lt;/th&gt;
+      &lt;th&gt;Pretty&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;renders&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=YOUTUBE_VIDEO_ID_HERE &quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;550&quot; height=&quot;400&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=SOXv87_zI_U &quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/SOXv87_zI_U/0.jpg&quot; alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt; has &lt;code&gt;back-ticks around&lt;/code&gt; it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var s = &quot;JavaScript syntax highlighting&quot;;
+alert(s);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;python
+foo = (1,2,3,4)
+for i foo:
+    print i
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+No language indicated, so no syntax highlighting. 
+But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s our logo (hover to see the title text):&lt;/p&gt;
+
+&lt;p&gt;Inline-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;y = \alpha X_0 + \beta_0 X_1 + \epsilon&lt;/script&gt;
+
+&lt;p&gt;\y = \alpha X_0 + \beta_0 X_1 + \epsilon\&lt;/p&gt;
+
+&lt;p&gt;\(\frac{1}{\frac{1}{2}} \times \frac{2}{3}\)&lt;/p&gt;
+
+&lt;p&gt;math is just like latex&lt;/p&gt;
+
+&lt;p&gt;Roses are &lt;span style=&quot;color:red&quot;&gt;red&lt;/span&gt;, violets are &lt;span style=&quot;color:blue&quot;&gt;blue&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Roses are &lt;span style=&quot;color:red; font-family:Georgia; font-size:2em;&quot;&gt;red.&lt;/span&gt;&lt;/p&gt;
+
+</description>
+				<pubDate>Wed, 27 May 2015 00:00:00 +0800</pubDate>
+				<link>/Notes/markdown/language/2015/05/27/Manual.html</link>
+				<guid isPermaLink="true">/Notes/markdown/language/2015/05/27/Manual.html</guid>
+			</item>
 		
 			<item>
 				<title>Python Decorator</title>
-				<description>
+				<description>&lt;h2 id=&quot;python-decorator&quot;&gt;Python Decorator&lt;/h2&gt;
+&lt;p&gt;###Decorators vs. the Decorator Pattern
+Indeed, you can use Python decorators to implement the Decorator pattern, but that’s an extremely limited use of it. Python decorators, I think, are best equated to macros.
+###What Can You Do With Decorators?
+Decorators allow you to inject or modify code in functions or classes. Sounds a bit like Aspect-Oriented Programming (AOP) in Java, doesn’t it? Except that it’s both much simpler and (as a result) much more powerful.&lt;/p&gt;
+
+&lt;p&gt;A function decorator is applied to a function definition by placing it on the line before that function definition begins. For example:&lt;/p&gt;
+
+&lt;h3 id=&quot;function-decorators&quot;&gt;Function Decorators&lt;/h3&gt;
+&lt;p&gt;A function decorator is applied to a function definition by placing it on the line before that function definition begins. For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+@myDecorator
+def aFunction():
+    print &quot;inside aFunction&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When the compiler passes over this code, aFunction() is compiled and the resulting function object is passed to the myDecorator code, which does something to produce a function-like object that is then substituted for the original aFunction().&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The only constraint upon the object returned by the decorator is that it can be used as a function – which basically means it must be callable. Thus, any classes we use as decorators must implement &lt;strong&gt;__call__&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;语法&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;python
+@decorator(dec_opt_args)
+def func2Bdecorated(func_opt_args):
+    pass
+&lt;/code&gt;
+###装饰器效果
+&lt;code&gt;python
+@deco2
+@deco1
+def func(arg1, arg2, ...):
+    pass
+&lt;/code&gt;
+&lt;strong&gt;this is equal to&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```python
+def func(arg1, arg2, …):
+    pass&lt;/p&gt;
+
+&lt;p&gt;func = deco2(deco1(func))
+```&lt;/p&gt;
 </description>
 				<pubDate>Tue, 26 May 2015 00:00:00 +0800</pubDate>
-				<link>/programming/language/2015/05/26/Python%20Decorator.html</link>
-				<guid isPermaLink="true">/programming/language/2015/05/26/Python%20Decorator.html</guid>
+				<link>/Notes/programming/language/2015/05/26/Python%20Decorator.html</link>
+				<guid isPermaLink="true">/Notes/programming/language/2015/05/26/Python%20Decorator.html</guid>
 			</item>
 		
 	</channel>

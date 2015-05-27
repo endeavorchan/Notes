@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Python Decorator</title>
+	<title>Maunual</title>
 	
-	<meta name="description" content="python decorator notes">
+	<meta name="description" content="a test for implementation of markdown in this blog">
 	
 	<meta name="author" content="Chen">
 
@@ -135,7 +135,7 @@
 
 	<div class="col-sm-9 col-sm-offset-3">
 		<div class="page-header">
-  <h1>Python Decorator </h1>
+  <h1>Maunual </h1>
 </div>
 	
 <article>
@@ -144,53 +144,206 @@
 	 <span class="post-date">
 	   
 	   May 
-	   26th,
+	   27th,
 	   
 	   2015
 	 </span>
 	  <div class="article_body">
-	  <h2 id="python-decorator">Python Decorator</h2>
-<p>###Decorators vs. the Decorator Pattern
-Indeed, you can use Python decorators to implement the Decorator pattern, but that’s an extremely limited use of it. Python decorators, I think, are best equated to macros.
-###What Can You Do With Decorators?
-Decorators allow you to inject or modify code in functions or classes. Sounds a bit like Aspect-Oriented Programming (AOP) in Java, doesn’t it? Except that it’s both much simpler and (as a result) much more powerful.</p>
+	  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-<p>A function decorator is applied to a function definition by placing it on the line before that function definition begins. For example:</p>
+<h2 id="main-section">Main section</h2>
 
-<h3 id="function-decorators">Function Decorators</h3>
-<p>A function decorator is applied to a function definition by placing it on the line before that function definition begins. For example:</p>
+<h3 id="sub-section-1">sub section 1</h3>
+
+<p>I can put my paragraph here, including some special characters like  <em>two starts italic</em> <strong>four stars bold</strong></p>
+
+<p>For itemize:</p>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item <code>Ctrl+3</code></li>
+</ul>
+
+<h3 id="sub-section-2">sub section 2</h3>
+<p>I can put a hyperlink here <a href="http://baidu.com">Baidu</a></p>
+
+<p>nest a list:</p>
+
+<ul>
+  <li>Abacus
+    <ul>
+      <li>answer</li>
+    </ul>
+  </li>
+  <li>Bubbles
+    <ol>
+      <li>bunk</li>
+      <li>bupkis
+        <ul>
+          <li>BELITTLER</li>
+        </ul>
+      </li>
+      <li>burper</li>
+    </ol>
+  </li>
+  <li>Cunning</li>
+</ul>
+
+<p>Blockquotes
+&gt; Email-style angle brackets
+&gt; are used for blockquotes.</p>
+
+<blockquote>
+  <blockquote>
+    <p>And, they can be nested.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <h4 id="headers-in-blockquotes">Headers in blockquotes</h4>
+
+  <ul>
+    <li>You can quote a list.</li>
+    <li>Etc.</li>
+  </ul>
+</blockquote>
+
+<h3 id="sub-section-3">sub section 3</h3>
+<p>This is a normal paragraph.</p>
+
+<pre><code> #include &lt;iostream&gt;
+ using namespace std;
+ int main() {
+	 cout &lt;&lt; "hello world" &lt;&lt; endl;
+}
+</code></pre>
+
+<h3 id="horizontal-rules">Horizontal Rules</h3>
+
+<p>Three or more…</p>
+
+<hr />
+
+<p>Hyphens</p>
+
+<hr />
+
+<p>Asterisks</p>
+
+<hr />
+
+<p>Underscores</p>
+
+<h3 id="end-a-line-with-two-or-more-spaces">end a line with two or more spaces</h3>
+<p>Roses are red,<br />
+Violets are blue.</p>
+
+<h3 id="picture">picture</h3>
+<p><img src="/Users/chen/Pictures/153_130507095205_1.jpg" alt="alt text" title="Title" /></p>
+
+<h3 id="table">table</h3>
+<p>Colons can be used to align columns.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>The outer pipes (</td>
+      <td>) are optional, and you don’t need to make the raw Markdown line up prettily. You can also use inline Markdown.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code>renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=YOUTUBE_VIDEO_ID_HERE " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="550" height="400" border="10" /></a></p>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=SOXv87_zI_U " target="_blank"><img src="http://img.youtube.com/vi/SOXv87_zI_U/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
+
+<p>Inline <code>code</code> has <code>back-ticks around</code> it.</p>
+
+<pre><code class="language-javascript">var s = "JavaScript syntax highlighting";
+alert(s);
+</code></pre>
 
 <p><code>python
-@myDecorator
-def aFunction():
-    print "inside aFunction"
+foo = (1,2,3,4)
+for i foo:
+    print i
 </code></p>
 
-<p><strong>When the compiler passes over this code, aFunction() is compiled and the resulting function object is passed to the myDecorator code, which does something to produce a function-like object that is then substituted for the original aFunction().</strong></p>
+<p><code>
+No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></p>
 
-<p>The only constraint upon the object returned by the decorator is that it can be used as a function – which basically means it must be callable. Thus, any classes we use as decorators must implement <strong>__call__</strong>.</p>
+<p>Here’s our logo (hover to see the title text):</p>
 
-<h3 id="section">语法</h3>
-<p><code>python
-@decorator(dec_opt_args)
-def func2Bdecorated(func_opt_args):
-    pass
-</code>
-###装饰器效果
-<code>python
-@deco2
-@deco1
-def func(arg1, arg2, ...):
-    pass
-</code>
-<strong>this is equal to</strong></p>
+<p>Inline-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
 
-<p>```python
-def func(arg1, arg2, …):
-    pass</p>
+<p>Reference-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
 
-<p>func = deco2(deco1(func))
-```</p>
+<script type="math/tex; mode=display">y = \alpha X_0 + \beta_0 X_1 + \epsilon</script>
+
+<p>\y = \alpha X_0 + \beta_0 X_1 + \epsilon\</p>
+
+<p>\(\frac{1}{\frac{1}{2}} \times \frac{2}{3}\)</p>
+
+<p>math is just like latex</p>
+
+<p>Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.</p>
+
+<p>Roses are <span style="color:red; font-family:Georgia; font-size:2em;">red.</span></p>
+
 
 	  </div>
 
@@ -200,8 +353,8 @@ def func(arg1, arg2, …):
 		  
 		  
 			 
-				<li><a href="/Notes/categories.html#programming-ref">
-					programming <span>(1)</span>
+				<li><a href="/Notes/categories.html#markdown-ref">
+					markdown <span>(1)</span>
 					,
 				</a></li>
 			 
@@ -221,15 +374,8 @@ def func(arg1, arg2, …):
 		  
 			 
 				<li>
-					<a href="/Notes/tags.html#python-ref">
-					python <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/Notes/tags.html#decorator-ref">
-					decorator <span>(1)</span>
+					<a href="/Notes/tags.html#test-ref">
+					test <span>(1)</span>
 					
 					</a>
 				</li>
@@ -244,7 +390,7 @@ def func(arg1, arg2, …):
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Python Decorator"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Maunual"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -272,10 +418,10 @@ def func(arg1, arg2, …):
 
 		<ul class="pager">
 		  
-		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  <li class="previous"><a href="/Notes/programming/language/2015/05/26/Python%20Decorator.html" title="Python Decorator">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/Notes/markdown/language/2015/05/27/Manual.html" title="Maunual">Next &rarr;</a></li>
+			<li class="next disabled"><a>Next &rarr;</a>
 		  
 		</ul>
 
