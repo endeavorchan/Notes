@@ -23,11 +23,11 @@ A function decorator is applied to a function definition by placing it on the li
 
 A function decorator is applied to a function definition by placing it on the line before that function definition begins. For example:
 
-{% highlight python %}
+```python
 @myDecorator
 def aFunction():
     print "inside aFunction"
-{% endhighlight %}
+```
 
 **When the compiler passes over this code, aFunction() is compiled and the resulting function object is passed to the myDecorator code, which does something to produce a function-like object that is then substituted for the original aFunction().**
 
