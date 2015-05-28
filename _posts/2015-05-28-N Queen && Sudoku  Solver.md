@@ -55,7 +55,7 @@ public:
 
     void getNQueens(int n, int row, int start, vector<string> &slu, vector<vector<string> > &result) {
        row = row % n;
-       if (row != start) {
+       if (row != start) {   
             for (int j = 0; j < n; ++j) {
                 if (slu[row][j] == '.' && constraint(row, j, n, slu)) {
                     slu[row][j] = 'Q';
@@ -156,23 +156,23 @@ public:
 
     void solveSudoku(vector<vector<char>>& board, int i, int j) {
 	
-        if (board[i][j] == '.') {
+        if (board[i][j] == '.') {  // if the cell is empty
             char start = '1';
-            for (; start <= '9'; ++start) {
-                if (canput(start, i, j, board)) {
+            for (; start <= '9'; ++start) {  // try all the possible numbers
+                if (canput(start, i, j, board)) {  // if meets the constraints
                 
-                    board[i][j] = start; // put
+                    board[i][j] = start; // put the number
                     if (i != 8 && j == 8) {
-                        solveSudoku(board, i+1, 0);
+                        solveSudoku(board, i+1, 0);  // continue (recursion)
+                        // backtracking
                         if (find == true) {
                             return;
                         }
-                        
-                        // backtracking
                         board[i][j] = '.';
                         erasefromdict(board, i, j, start);
                     
                     } else if (i == 8 && j == 8) {
+                        // find the solution, set tag to true
                         find = true;
                         return;
             
@@ -187,11 +187,10 @@ public:
                         erasefromdict(board, i, j, start);
                     
                     }
-                }
-                
+                }   
             }
 
-        } else {
+        } else {  // the cell is already occupied, just recursion
             if (i != 8 && j == 8) {
                 solveSudoku(board, i+1, 0);
 
