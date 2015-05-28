@@ -8,6 +8,7 @@ fullview: false
 ---
 
 ##Python Lambda Expression
+
 ###匿名函数与lambda
 
 python允许使用lamdba关键字创建匿名函数
