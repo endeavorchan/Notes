@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python Lambda Expression
-categories: [programming, language]
-tags: [python, lambda expression]
+categories: [python, language]
+tags: [lambda expression]
 description: Python Lambda Expression notes
 fullview: false
 ---

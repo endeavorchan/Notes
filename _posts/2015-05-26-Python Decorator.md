@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python Decorator
-categories: [programming, language]
-tags: [python, decorator]
+categories: [python, language]
+tags: [decorator]
 description: python decorator notes
 fullview: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Various Python Comprhensions
-categories: [Python]
+categories: [Python, language]
 tags: [list, set, dictionary, comprehension]
 description: List, Set, Dictionary Comprehensions (brief discussion)
 fullview: false
