@@ -94,7 +94,7 @@ The list looks like this now: [ func(func(s1, s2),s3), ... , sn ]
 
 {% highlight python %}
 # Determining the maximum of a list of numerical values by using reduce:
-f = lambda a,b: a if (a > b) else b
+f = lambda a,b: a if a > b else b
 reduce(f, [47,11,42,102,13])
 #>out: 102
 
