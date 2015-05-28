@@ -13,7 +13,7 @@ In mathematics the square numbers of the natural numbers are for example created
 
 ###List Comprehension
 
-List comprehension is a complete substitute for the lambda function as well as the functions map(), filter() and reduce(). For most people the syntax of list comprehension is easier to be grasped. 
+[List comprehension](http://en.wikipedia.org/wiki/List_comprehension) is a complete substitute for the lambda function as well as the functions map(), filter() and reduce(). For most people the syntax of list comprehension is easier to be grasped. 
 
 {% highlight python %}
 #The following list comprehension creates the Pythagorean triples:
