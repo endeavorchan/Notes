@@ -3,7 +3,7 @@ layout: post
 title: Various Python Comprhensions
 categories: [Python]
 tags: [list, set, dictionary, comprehension]
-description: 
+description: List, Set, Dictionary Comprehensions (浅谈)
 fullview: false
 ---
 ##List, Set, Dictionary Comprehensions (浅谈)
