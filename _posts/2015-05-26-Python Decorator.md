@@ -125,3 +125,10 @@ print addab(1,3)
 3. 从上面的描述，我们可以得出一个直观的感觉，那就是装饰器其实并非我们的核心关注目标，如果是读其他人的代码，并且作者正确的使用了Decorator模式，那么我们可以暂时忽略装饰器，把核心功能梳理清楚，然后再考虑当前功能会有哪些场景，针对每种场景进入到装饰器里看一下。
 
 最后问题的结论就很清楚了，装饰器嵌套过多确实会很恶心，但庆幸的是良好的使用装饰器我们读代码反而会简单很多，我们可以有层次的深入代码，最简单的不用看装饰器我们就能理解代码在做什么。
+
+###some usefull link
+[Python装饰器学习(九步入门)](http://www.cnblogs.com/rhcad/archive/2011/12/21/2295507.html)
+
+[python decorator with arguments](http://stackoverflow.com/questions/25418499/python-decorators-with-arguments?rq=1)
+
+[See the second ans](http://stackoverflow.com/questions/739654/how-can-i-make-a-chain-of-function-decorators-in-python#answer-739665)
