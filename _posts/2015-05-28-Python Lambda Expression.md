@@ -54,3 +54,18 @@ C = map(lambda T : (float(5) / 9) * (T - 32), F)
 print F
 print C
 {% endhighlight %}
+
+map() can be applied to more than one list. **The lists have to have the same length**. map() will apply its lambda function to the elements of the argument lists, i.e. it first applies to the elements with the 0th index, then to the elements with the 1st index until the n-th index is reached:
+
+{% highlight python %}
+a = [1, 2, 3, 4]
+b = [17, 12, 11, 10]
+c = [-1, -4, 5, 9]
+print map(lambda x,y : x + y, a,b)
+print map(lambda x, y, z: (x + y - z, x+y), a, b, c)
+#> [18, 14, 14, 14]
+#> [(19, 18), (18, 14), (9, 14), (5, 14)]
+{% endhighlight %}
+
+### used in filtering
+
