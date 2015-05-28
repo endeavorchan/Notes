@@ -4,7 +4,7 @@ title: Various Python Comprhensions
 categories: [Python]
 tags: [list, set, dictionary, comprehension]
 description: 
-fullview: true
+fullview: false
 ---
 ##List, Set, Dictionary Comprehensions (浅谈)
 
