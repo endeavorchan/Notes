@@ -3,10 +3,10 @@ layout: post
 title: Various Python Comprhensions
 categories: [Python]
 tags: [list, set, dictionary, comprehension]
-description: List, Set, Dictionary Comprehensions (浅谈)
+description: List, Set, Dictionary Comprehensions (brief discussion)
 fullview: false
 ---
-##List, Set, Dictionary Comprehensions (浅谈)
+##List, Set, Dictionary Comprehensions (brief discussion)
 
 Guido van Rossum prefers list comprehensions to constructs using map, filter, reduce and lambda. Essentially, it is Python's way of implementing a well-known notation for sets as used by mathematicians. 
 In mathematics the square numbers of the natural numbers are for example created by { x2 | x ∈ ℕ } or the set of complex integers { (x,y) | x ∈ ℤ ∧ y ∈ ℤ }. 
