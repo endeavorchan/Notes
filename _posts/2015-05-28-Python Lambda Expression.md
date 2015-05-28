@@ -23,7 +23,7 @@ The following example of a lambda function returns the sum of its two arguments:
 {% highlight python %}
 f = lambda x, y : x + y
 f(1, 3)
-\#output 4
+#output 4
 {% endhighlight %}
 
 ###usage of lambda expression
@@ -31,10 +31,7 @@ f(1, 3)
 ####used in map
 
 {% highlight python %}
-f = lambda x, y : x + y
-print f(2,3)
-
-/# mseq = map(func, seq)  apply each element of seq to func and return a mapp# ed seq
+# mseq = map(func, seq)  apply each element of seq to func and return a mapp# ed seq
 
 def fahrenheit(T):
     return ((float(9) / 5) * T + 32)
@@ -49,7 +46,7 @@ C =  map(celsius, F)
 print F
 print C
 
-/## we can use lambda expression to do the map
+## we can use lambda expression to do the map
 
 F = map(lambda T : (float(9) / 5) * T + 32, temp)
 C = map(lambda T : (float(5) / 9) * (T - 32), F)
