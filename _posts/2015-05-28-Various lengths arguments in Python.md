@@ -8,7 +8,9 @@ fullview: false
 ---
 
 ## Python可变长度的参数 * **
+
 ###keyword arguments
+
 {% highlight python %}
 def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
     print("-- This parrot wouldn't", action, end=' ')
