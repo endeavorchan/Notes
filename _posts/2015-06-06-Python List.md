@@ -51,4 +51,23 @@ a = b[:]
 list.append(list(a))
 {% endhighlight %}
 
+###Is Python pass-by-reference or pass-by-value?
+
+Python is “pass-by-object-reference”, it is often said as “Object references are passed by value.”
+
+{% highlight python %}
+def reassign(list):    # the reference is passed by value 
+  list = [0, 1]
+
+def append(list):
+  list.append(1)
+
+list = [0]
+reassign(list)
+print list   #  [0]
+
+append(list)
+print list # [0,1]
+{% endhighlight %}
+
 
