@@ -70,4 +70,6 @@ append(list)
 print list # [0,1]
 {% endhighlight %}
 
+reference:
+[Is Python pass-by-reference or pass-by-value?](http://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/)
 
