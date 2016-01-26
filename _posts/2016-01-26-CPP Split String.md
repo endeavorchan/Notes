@@ -2,15 +2,30 @@
 layout: post
 title: CPP Split String
 categories: [Programming]
-tags: [C] [C++]
+tags: [C++]
 description: CPP Split String
 fullview: false
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 ##Split String with Delimit in CPP
 
+We can use 
 
+{% highlight c++ %}
+size_type find( const basic_string& str, size_type pos = 0 ) const;
+
+size_type find( const CharT* s, size_type pos, size_type count ) const;
+
+size_type find( const CharT* s, size_type pos = 0 ) const;
+
+size_type find( CharT ch, size_type pos = 0 ) const;
+{% endhighlight %}
+
+to find the pos (a integer index) of the dlimit, and use substr to get the substring.
+
+{% highlight c++ %}
+basic_string substr( size_type pos = 0, size_type count = npos ) const;
+{% endhighlight %}
 
 {% highlight c++ %}
 vector<string> split(const string &str, const string &limit) {
