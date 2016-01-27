@@ -63,6 +63,10 @@ The first tests are there to eliminate corner cases (leading spaces, empty strin
 
 This function should be, of course, customized to your needs (are leading spaces an error? etc.).
 
+### Another Way
+Of course, we can use `stoi`, `stod`, etc. 
+If the given string is not an integer, the function above will throw an exception.
+
 [source](http://stackoverflow.com/questions/2844817/how-do-i-check-if-a-c-string-is-an-int)
 
 
