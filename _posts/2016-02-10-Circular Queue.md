@@ -13,8 +13,8 @@ fullview: false
 
 {% highlight c++ %}
 namespace bl {
-const int QUEUESIZE = 20;
-template<class T>
+//const int QUEUESIZE = 20;
+template<class T, int QUEUESIZE>
 class CirQueue {
     T buf[QUEUESIZE];
     int head, tail;
